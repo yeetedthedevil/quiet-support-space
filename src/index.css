@@ -85,3 +85,31 @@
     @apply dark:bg-background/40 dark:backdrop-blur-lg dark:border-border/20 dark:shadow-lg;
   }
 }
+
+/* Add animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  .animate-delayed-fade-up {
+    animation: fadeUp 0.5s ease-out forwards;
+    animation-delay: 0.1s;
+  }
+}

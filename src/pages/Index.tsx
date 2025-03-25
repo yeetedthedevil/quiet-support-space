@@ -23,7 +23,7 @@ const Index = () => {
       </div>
       
       {/* Main content card */}
-      <Card className="max-w-xl w-full glass-panel glass-panel-dark py-10 px-6 sm:p-10 rounded-2xl opacity-0 animate-fade-in">
+      <Card className="max-w-xl w-full glass-panel glass-panel-dark py-10 px-6 sm:p-10 rounded-2xl">
         {/* Logo or icon - using a simple circle as placeholder */}
         <div className="w-20 h-20 rounded-full bg-blue-100 dark:bg-blue-900/30 mx-auto mb-8 flex items-center justify-center">
           <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
@@ -38,7 +38,7 @@ const Index = () => {
         </div>
         
         {/* Message content */}
-        <div className="mt-6 mb-8 opacity-0 animate-delayed-fade-up">
+        <div className="mt-6 mb-8">
           <p className="text-center text-muted-foreground leading-relaxed mb-4">
             Our IT helpdesk is currently closed for in-person assistance. 
             For all technical support needs, please contact us via email.
@@ -60,13 +60,13 @@ const Index = () => {
         </div>
         
         {/* Contact button */}
-        <div className="flex justify-center opacity-0 animate-delayed-fade-up" style={{ animationDelay: "0.2s" }}>
+        <div className="flex justify-center">
           <ContactButton email="support@lyndonsac.co.uk" />
         </div>
       </Card>
       
       {/* Footer */}
-      <div className="mt-8 text-center text-xs text-muted-foreground opacity-0 animate-delayed-fade-up" style={{ animationDelay: "0.3s" }}>
+      <div className="mt-8 text-center text-xs text-muted-foreground">
         <p>© {new Date().getFullYear()} Lyndon SAC. All rights reserved.</p>
       </div>
     </div>
