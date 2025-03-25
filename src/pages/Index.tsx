@@ -1,5 +1,6 @@
 
 import { useEffect } from 'react';
+import { Mail } from 'lucide-react';
 import ThemeToggle from '@/components/ThemeToggle';
 import BackgroundEffect from '@/components/BackgroundEffect';
 import ContactButton from '@/components/ContactButton';
