@@ -40,7 +40,7 @@ const Index = () => {
         {/* Message content */}
         <div className="mt-6 mb-8">
           <p className="text-center text-muted-foreground leading-relaxed mb-4">
-            Our IT helpdesk is currently closed for in-person assistance. 
+            Our IT support system is currently closed. 
             For all technical support needs, please contact us via email.
           </p>
           <p className="text-center text-sm text-muted-foreground mb-6">
@@ -67,7 +67,7 @@ const Index = () => {
       
       {/* Footer */}
       <div className="mt-8 text-center text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} Lyndon SAC. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Lyndons Academy. All rights reserved.</p>
       </div>
     </div>
   );
